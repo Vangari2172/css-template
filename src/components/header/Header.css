@@ -1,0 +1,37 @@
+.header {
+  width: 100%;
+
+  /* background-color: #edecec; */
+  background-color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  padding: 10px;
+  margin: auto;
+}
+
+.logo {
+  width: 10rem;
+
+  background-color: #fff;
+}
+.main-nav {
+  display: flex;
+  gap: 4.8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-name {
+  font-size: 2rem;
+  color: #333;
+  font-weight: 400;
+}
+
+.list-name:hover {
+  border-bottom: 5px solid rgb(2, 211, 248);
+}
