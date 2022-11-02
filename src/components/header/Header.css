@@ -1,3 +1,6 @@
+@import "../../css/mediaQueries/MediaQueries.css";
+/* @import "../../css/general/General.css"; */
+
 .header {
   width: 100%;
   /* background-color: #edecec; */
@@ -33,4 +36,12 @@
 
 .list-name:hover {
   border-bottom: 5px solid orangered;
+}
+.menu-bar .fa-solid {
+  background-color: transparent;
+  color: #000;
+  font-size: 2.8rem;
+  margin: 0;
+  align-self: center;
+  display: none;
 }

@@ -34,6 +34,9 @@ const Header = () => {
             </li>
           </ul>
         </div>
+        <div className="menu-bar">
+          <i class="fa-solid fa-bars"></i>
+        </div>
       </nav>
       {/* <hr
         style={{ border: "none", height: "5px", backgroundColor: "orangered" }}

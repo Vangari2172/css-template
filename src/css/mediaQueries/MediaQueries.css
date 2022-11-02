@@ -9,10 +9,49 @@
   html {
     font-size: 35%;
   }
+  /* .footer .grid--3-cols {
+    grid-template-columns: repeat(2, 1fr);
+  } */
 }
 /* 656 */
 @media (max-width: 41em) {
   html {
     font-size: 30%;
+  }
+}
+
+/* 576 */
+@media (max-width: 36em) {
+  html {
+    font-size: 25%;
+  }
+  .header .menu-bar .fa-solid {
+    display: block;
+  }
+  .header .main-nav {
+    display: none;
+  }
+  .header .navbar {
+    padding: 2rem;
+  }
+  .header .logo {
+    width: 14rem;
+  }
+  .hero-text-box h1 {
+    color: #fff;
+    font-size: 3.2rem;
+    margin-bottom: 1.8rem;
+  }
+  .hero-text-box p {
+    font-size: 1.8rem;
+    margin-bottom: 4.8rem;
+  }
+  .btn-learn,
+  .btn-contact {
+    font-size: 2rem;
+    /* padding: 0.8rem 1.2rem; */
+  }
+  .grid {
+    column-gap: 2rem;
   }
 }
