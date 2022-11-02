@@ -21,11 +21,11 @@ section {
   font-weight: 400;
 }
 
-.btn-hero {
+/* .btn-hero {
   display: flex;
   gap: 2rem;
-  /* margin-top: 20rem; */
-}
+   margin-top: 20rem; 
+} */
 
 .btn-learn {
   outline: none;
