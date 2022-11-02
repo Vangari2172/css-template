@@ -14,8 +14,8 @@ const Hero = () => {
               industry.
             </p>
             <div className="btn-hero">
-              <button className="btn-learn">Learn More</button>
-              <button className="btn-contact">8452653515</button>
+              <button className="btn-learn">Learn</button>
+              <button className="btn-contact">8452654525</button>
             </div>
           </div>
           <div className="hero-img-box">

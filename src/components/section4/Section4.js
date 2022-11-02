@@ -11,23 +11,23 @@ const Section4 = () => {
         <h1>Our Latest Courses</h1>
         <p>Lorem Ipsum is simply dummy text of the printing</p>
         <div className="container grid grid--3-cols">
-          <div>
+          <div className="sec4-image-box">
             <div className="sec4_img">
               <img src={sec4_img1} alt="picture1" />
             </div>
-            <p>Lorem Ipsum is simply</p>
+            <p className="des1">Lorem Ipsum is simply</p>
           </div>
           <div>
             <div className="sec4_img">
               <img src={sec4_img2} alt="picture2" />
             </div>
-            <p>dummy text of the printing</p>
+            <p className="des1">dummy text of the printing</p>
           </div>
           <div>
             <div className="sec4_img">
               <img src={sec4_img3} alt="picture3" />
             </div>
-            <p>Lorem Ipsum is simply</p>
+            <p className="des1">Lorem Ipsum is simply</p>
           </div>
         </div>
       </div>
