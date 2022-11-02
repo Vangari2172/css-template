@@ -35,6 +35,9 @@ const Header = () => {
           </ul>
         </div>
       </nav>
+      {/* <hr
+        style={{ border: "none", height: "5px", backgroundColor: "orangered" }}
+      /> */}
     </header>
   );
 };

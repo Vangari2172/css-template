@@ -1,0 +1,40 @@
+.section4-img {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(5, 37, 78, 0.925),
+      rgba(5, 37, 78, 0.925)
+    ),
+    url("../../images/books.png");
+  margin-bottom: 5.6rem;
+}
+
+.section4-img h1 {
+  color: #fff;
+  text-align: center;
+  padding-top: 4.8rem;
+  font-size: 4.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.section4-img p {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 6.4rem;
+  font-size: 2.4rem;
+}
+
+.sec4_img {
+  width: 100%;
+  /* height: auto; */
+  margin-bottom: 1.8rem;
+}
+
+.sec4_img img {
+  width: 100%;
+
+  border-radius: 11px;
+}
+
+.section4-img .container p {
+  font-size: 2rem;
+}

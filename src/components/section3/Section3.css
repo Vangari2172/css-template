@@ -1,0 +1,50 @@
+section {
+  padding-bottom: 9.6rem;
+}
+
+.section3-text-box {
+  align-self: center;
+}
+
+.section3-text-box h1 {
+  font-size: 4.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.section3-text-box p {
+  font-size: 2.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.highlight {
+  color: rgb(0, 111, 126);
+  font-weight: 400;
+}
+
+.btn-hero {
+  display: flex;
+  gap: 2rem;
+  /* margin-top: 20rem; */
+}
+
+.btn-learn {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 1.2rem 2.4rem;
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 600;
+  background-color: rgb(0, 121, 121);
+  /* margin-bottom: 200rem; */
+}
+
+.section3-img-box {
+  width: 100%;
+}
+
+.section3-img-box img {
+  width: 100%;
+  display: block;
+  border-radius: 9px;
+}

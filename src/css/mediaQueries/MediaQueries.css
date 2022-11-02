@@ -1,0 +1,18 @@
+/* below 1040px */
+@media (max-width: 65em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 48em) {
+  html {
+    font-size: 35%;
+  }
+}
+/* 656 */
+@media (max-width: 41em) {
+  html {
+    font-size: 30%;
+  }
+}

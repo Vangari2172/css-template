@@ -1,0 +1,59 @@
+.section5 {
+  padding-bottom: 5.6rem;
+}
+
+.section5 h1 {
+  color: #000;
+  font-size: 4.8rem;
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+
+.para {
+  color: #000;
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.fa-solid {
+  font-size: 2.4rem;
+  color: #fff;
+  background-color: rgb(0, 121, 121);
+  border-radius: 50%;
+  padding: 2.4rem;
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+.des {
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.section5 .grid {
+  text-align: center;
+}
+
+.description {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 4.8rem;
+}
+
+.sec5-btn {
+  text-align: center;
+}
+
+.sec5-btn button {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 1.2rem 2.4rem;
+  color: #fff;
+
+  font-size: 2.4rem;
+  font-weight: 600;
+  background-color: rgb(8, 32, 63);
+}
