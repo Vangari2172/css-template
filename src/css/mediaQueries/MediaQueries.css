@@ -140,7 +140,7 @@
   .footer .grid--3-cols {
     grid-template-columns: 1fr 1fr;
     row-gap: 4rem;
-    column-gap: 2rem;
+    column-gap: 8rem;
   }
   .footer-link {
     grid-column: 1/-1;
@@ -161,7 +161,7 @@
   }
   .contact .footer-para,
   .usefull-link .flex ul li {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
   }
 
   .contact .footer-des {
