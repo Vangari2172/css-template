@@ -5,7 +5,7 @@ const Section5 = () => {
   return (
     <div className="section5">
       <h1>What We Offer</h1>
-      <p className="para">Lorem Ipsum is simply dummy text of the printing</p>
+      <p className="para">Lorem Ipsum is simply dummy</p>
       <div className="container grid grid--3-cols">
         <div>
           <i className="fa-solid fa-people-group"></i>
