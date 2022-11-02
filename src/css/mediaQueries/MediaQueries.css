@@ -27,6 +27,7 @@
   }
   .header .menu-bar .fa-solid {
     display: block;
+    /* font-size: 3.2e; */
   }
   .header .main-nav {
     display: none;
