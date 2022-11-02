@@ -140,8 +140,31 @@
   .footer .grid--3-cols {
     grid-template-columns: 1fr 1fr;
     row-gap: 4rem;
+    column-gap: 2rem;
   }
   .footer-link {
     grid-column: 1/-1;
+  }
+
+  .footer-link .footer-p {
+    font-size: 3rem;
+  }
+
+  .social-links .fa-brands {
+    font-size: 3.5rem;
+    margin: 2rem 0px;
+  }
+  .container .contact h3,
+  .container .usefull-link h3 {
+    font-size: 3rem;
+    margin-bottom: 4.8rem;
+  }
+  .contact .footer-para,
+  .usefull-link .flex ul li {
+    font-size: 2.8rem;
+  }
+
+  .contact .footer-des {
+    font-size: 2.5rem;
   }
 }
