@@ -25,10 +25,10 @@
   html {
     font-size: 30%;
   }
-  .header .menu-bar .fa-solid {
-    display: block;
-    /* font-size: 3.2e; */
-  }
+  /* .header .menu-bar .fa-solid {
+    display: block; */
+  /* font-size: 3.2e; */
+  /* } */
   .header .main-nav {
     display: none;
   }
@@ -40,12 +40,12 @@
   }
   .hero-text-box h1 {
     color: #fff;
-    font-size: 4.8rem;
+    font-size: 3.4rem;
     margin-bottom: 2.4rem;
     padding-top: 4.8rem;
   }
   .hero-text-box p {
-    font-size: 2.4rem;
+    font-size: 2rem;
     margin-bottom: 4.8rem;
   }
 
@@ -138,7 +138,7 @@
     margin-top: -8rem;
   }
   .footer .grid--3-cols {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     row-gap: 4rem;
     column-gap: 8rem;
   }
@@ -156,16 +156,20 @@
   }
   .container .contact h3,
   .container .usefull-link h3 {
-    font-size: 3rem;
+    font-size: 4.8rem;
     margin-bottom: 4.8rem;
   }
   .contact .footer-para,
   .usefull-link .flex ul li {
-    font-size: 2.5rem;
+    font-size: 3.2rem;
+  }
+
+  .usefull-link .flex {
+    gap: 15rem;
   }
 
   .contact .footer-des {
-    font-size: 2.5rem;
+    font-size: 3.2rem;
     margin-bottom: 4.2rem;
   }
   .header .btn-mobile-nav {
@@ -183,11 +187,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.5s ease-in;
-    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+    /* overflow-x: hidden; */
     pointer-events: none;
+    margin-left: -999px;
     visibility: hidden;
-
     transform: translateX(100%);
   }
 
@@ -196,6 +201,7 @@
     pointer-events: auto;
     visibility: visible;
     transform: translateX(0);
+    margin-left: 0px;
   }
 
   .nav-open .fa-xmark {
