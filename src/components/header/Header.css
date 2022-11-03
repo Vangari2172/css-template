@@ -1,47 +1,82 @@
 @import "../../css/mediaQueries/MediaQueries.css";
 /* @import "../../css/general/General.css"; */
+/* .sec-header {
+  background-color: #fdf2e9;
+  padding-bottom: 0;
+} */
 
 .header {
-  width: 100%;
-  /* background-color: #edecec; */
-  background-color: #fff;
-  border-bottom: 4px solid orangered;
-}
-
-.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 15%;
-  margin: auto;
+  background-color: #fdf2e9;
+
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  position: relative;
+  border-bottom: 5px solid orangered;
 }
 
 .logo {
   width: 10rem;
-
-  background-color: #fff;
 }
-.main-nav {
+
+.logo img {
+  width: 100%;
+}
+
+/* NAVIGATION */
+
+.main-nav-list {
+  list-style: none;
   display: flex;
-  gap: 4.8rem;
-  justify-content: center;
   align-items: center;
+  gap: 4.8rem;
 }
 
-.list-name {
-  font-size: 2rem;
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
   color: #333;
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
 }
 
-.list-name:hover {
-  border-bottom: 5px solid orangered;
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
 }
-.menu-bar .fa-solid {
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
+}
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  /* cursor: pointer; */
+  display: none;
+}
+
+.btn-mobile-nav .fa-solid {
+  font-size: 4.2rem;
+  color: #555;
+  /* border: none; */
+  margin: 0px;
   background-color: transparent;
-  color: #000;
-  font-size: 4.8rem;
-  margin: 0;
-  align-self: center;
+}
+
+.fa-xmark {
   display: none;
 }

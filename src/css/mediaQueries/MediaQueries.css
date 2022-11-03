@@ -36,7 +36,7 @@
     padding: 2rem;
   }
   .header .logo {
-    width: 20rem;
+    width: 13rem;
   }
   .hero-text-box h1 {
     color: #fff;
@@ -76,9 +76,9 @@
   /* .btn-hero {
     display: none;
   } */
-  .btn-hero .btn-learn {
+  /* .btn-hero .btn-learn {
     margin: auto;
-  }
+  } */
   .grid--3-cols {
     grid-template-columns: 1fr;
   }
@@ -167,5 +167,50 @@
   .contact .footer-des {
     font-size: 2.5rem;
     margin-bottom: 4.2rem;
+  }
+  .header .btn-mobile-nav {
+    display: block;
+
+    z-index: 100;
+  }
+  .header .main-nav {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+
+    transform: translateX(100%);
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .fa-xmark {
+    display: block;
+    transition: all 0.5s ease-in;
+  }
+
+  .nav-open .fa-bars {
+    display: none;
+  }
+  .main-nav-list {
+    flex-direction: column;
+  }
+  .main-nav .main-nav-list .main-nav-link {
+    margin-bottom: 4.8rem;
+    font-size: 4.8rem;
   }
 }
