@@ -1,5 +1,6 @@
 import React from "react";
 import "./Section5.css";
+import sec5 from "../../nav.json";
 
 const Section5 = () => {
   return (
@@ -7,7 +8,16 @@ const Section5 = () => {
       <h1>What We Offer</h1>
       <p className="para">Lorem Ipsum is simply dummy</p>
       <div className="container grid grid--3-cols">
-        <div>
+        {sec5.section5.map((item) => {
+          return (
+            <div key={item.id}>
+              <i className={`${item.icon}`}></i>
+              <p className="des">{item.heading}</p>
+              <p className="description">{item.des}</p>
+            </div>
+          );
+        })}
+        {/* <div>
           <i className="fa-solid fa-people-group"></i>
           <p className="des">01. Experience</p>
           <p className="description">
@@ -30,9 +40,9 @@ const Section5 = () => {
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
-        </div>
+        </div> */}
         {/* <div>
-          <i class="fa-solid fa-file-certificate"></i>
+          <i className="fa-solid fa-file-certificate"></i>
           <p>03. Certificate</p>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting

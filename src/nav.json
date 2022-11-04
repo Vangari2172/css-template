@@ -1,0 +1,41 @@
+{
+  "nav": [
+    {
+      "id": "1",
+      "navList": "Home"
+    },
+    {
+      "id": "2",
+      "navList": "About"
+    },
+    {
+      "id": "3",
+      "navList": "Services"
+    },
+    {
+      "id": "4",
+      "navList": "Contact Us"
+    }
+  ],
+
+  "section5": [
+    {
+      "id": "1",
+      "icon": "fa-solid fa-people-group",
+      "heading": "01. Experience",
+      "des": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": "2",
+      "icon": "fa-solid fa-book",
+      "heading": "02. Education",
+      "des": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": "3",
+      "icon": "fa-solid fa-file",
+      "heading": "03. Certificate ",
+      "des": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    }
+  ]
+}

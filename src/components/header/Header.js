@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 import logo from "../../images/logo.png";
+import nav from "../../nav.json";
 
 const Header = () => {
   const [isClick, setIsClick] = useState(false);
@@ -17,7 +18,20 @@ const Header = () => {
         </div>
         <nav className="main-nav">
           <ul className="main-nav-list">
-            <li>
+            {nav.nav.map((data) => {
+              return (
+                <li key={data.id}>
+                  <a
+                    className="main-nav-link"
+                    href={`#${data.navList.toLowerCase()}`}
+                    onClick={() => setIsClick(false)}
+                  >
+                    {data.navList}
+                  </a>
+                </li>
+              );
+            })}
+            {/* <li>
               <a className="main-nav-link" href="#home">
                 Home
               </a>
@@ -36,12 +50,12 @@ const Header = () => {
               <a className="main-nav-link" href="#contact">
                 Contact Us
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
         <button className="btn-mobile-nav" onClick={navBtn}>
-          <i class="fa-solid fa-bars"></i>
-          <i class="fa-solid fa-xmark"></i>
+          <i className="fa-solid fa-bars"></i>
+          <i className="fa-solid fa-xmark"></i>
         </button>
       </header>
     </div>
