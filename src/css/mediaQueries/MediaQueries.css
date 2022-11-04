@@ -134,8 +134,8 @@
   }
 
   .second-div .sec6_image {
-    width: 30%;
-    margin-top: -8rem;
+    width: 10%;
+    /* margin-top: -8rem; */
   }
   .footer .grid--3-cols {
     grid-template-columns: 1fr;
