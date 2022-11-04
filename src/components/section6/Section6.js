@@ -9,6 +9,7 @@ const Section6 = () => {
   var settings = {
     infinite: true,
     speed: 500,
+    margin: "40px",
     // autoplay: true,
     autoplayspeed: 1000,
     slidesToShow: 1,
@@ -48,7 +49,7 @@ const Section6 = () => {
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book. It has
               survived not only five centuries, but also the leap into
-              electronic typesetting, ""
+              electronic typesetting.
             </blockquote>
             <div className="sec6_image">
               <img src={sec6_img} alt="face" />
@@ -64,7 +65,7 @@ const Section6 = () => {
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book. It has
               survived not only five centuries, but also the leap into
-              electronic typesetting, ""
+              electronic typesetting.
             </blockquote>
             <div className="sec6_image">
               <img src={sec6_img} alt="face" />
@@ -80,7 +81,7 @@ const Section6 = () => {
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book. It has
               survived not only five centuries, but also the leap into
-              electronic typesetting, ""
+              electronic typesetting.
             </blockquote>
             <div className="sec6_image">
               <img src={sec6_img} alt="face" />
