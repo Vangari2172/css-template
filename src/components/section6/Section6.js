@@ -2,8 +2,8 @@ import React from "react";
 import "./Section6.css";
 import sec6_img from "../../images/face.png";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import "./Slick.css";
+import "./Slick-theme.css";
 
 const Section6 = () => {
   var settings = {
@@ -42,7 +42,10 @@ const Section6 = () => {
           </div>
         </Slider> */}
         <Slider {...settings}>
-          <div className="second-div">
+          <div
+            className="second-div"
+            style={{ width: " 90%", display: "inline-block" }}
+          >
             <blockquote>
               "Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

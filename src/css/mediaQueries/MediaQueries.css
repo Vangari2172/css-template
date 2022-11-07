@@ -219,4 +219,9 @@
     margin-bottom: 4.8rem;
     font-size: 4.8rem;
   }
+
+  .slick-prev:before,
+  .slick-next:before {
+    display: none;
+  }
 }
