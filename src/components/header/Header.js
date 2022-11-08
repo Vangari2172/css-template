@@ -31,26 +31,11 @@ const Header = () => {
                 </li>
               );
             })}
-            {/* <li>
-              <a className="main-nav-link" href="#home">
-                Home
+            <li>
+              <a href="#a" className="main-nav-link">
+                <i className="fa-solid fa-magnifying-glass"></i>
               </a>
             </li>
-            <li>
-              <a className="main-nav-link" href="#about">
-                About
-              </a>
-            </li>
-            <li>
-              <a className="main-nav-link" href="#services">
-                Services
-              </a>
-            </li>
-            <li>
-              <a className="main-nav-link" href="#contact">
-                Contact Us
-              </a>
-            </li> */}
           </ul>
         </nav>
         <button className="btn-mobile-nav" onClick={navBtn}>

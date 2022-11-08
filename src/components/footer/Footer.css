@@ -6,6 +6,7 @@
 
 .footer-logo {
   width: 50%;
+  cursor: pointer;
 }
 
 .footer-logo img {
@@ -15,6 +16,7 @@
 .social-links {
   display: flex;
   gap: 2rem;
+  cursor: pointer;
 }
 .footer-p {
   font-size: 1.8rem;
